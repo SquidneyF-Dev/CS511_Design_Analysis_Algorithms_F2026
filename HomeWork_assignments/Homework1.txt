@@ -1,0 +1,7 @@
+1.
+This is a recursive algorithm because the Decimal_To_Binary function
+calls itself inside of the function.
+
+The base case is when d = 0. When d is not 0, the function divides d
+by 2 and calls Decimal_To_Binary again. This continues until d becomes
+0.
